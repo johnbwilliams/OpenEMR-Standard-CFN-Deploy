@@ -1,0 +1,83 @@
+---
+title: "OpenEMR Cloud Standard Edition Deployment (BETA)"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 4
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Log In
+
+Log in to AWS account as administrator.   If necessary, create a set
+
+### URL
+
+In a new browser tab/window, navigate to the [OpenEMR Cloud Standard deploy URL](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=OpenEMRStandard&templateURL=https:%2F%2Fs3.amazonaws.com%2Fopenemr-cfn-useast1%2FOpenEMR-Standard-Developer.json)
+
+The following page will appear in your browser:
+
+### Template
+
+![](./Standard_deploy_screen1.png)
+Make no changes and click on the "Next" button on bottom right of screen. The following screen will appear:
+
+
+### Details
+
+![](./Standard_deploy_screen2.png)
+
+Enter two passwords - one for OpenEMR, another for MySQL. Select "Application Developer" in drop down box for "EC2 SSH Key for connecting to OpenEMR's Shell". Accept (or modify) default settings of remaining fields. Click on the "Next" button on bottom right of screen. The following screen will appear:
+
+### Options
+
+![](./Standard_deploy_screen3.png)
+
+Make no changes and click on the "Next" button on bottom right of screen. The following screen will appear:
+
+### Review
+
+![](./Standard_deploy_screen4.png)
+ 
+Review the deploy parameters.  Click the check box on bottom left of screen.  Click on the "CREATE" button on bottom right of screen. The following screen will appear:
+
+### Deploy
+
+
+![](./Standard_deploy_screen5a.png)
+
+In a few minutes, your newly created stack - "OpenEMRStandard"" - will appear at the top of the list, with status of "CREATE_IN_PROGRESS":
+
+#### Progress
+
+![](./Standard_deploy_screen5b.png)
+
+Select (click check box of) your new stack, and select the "Events" tab at bottom of screen to monitor progress of your deployment:
+
+#### Events
+
+![](./Standard_deploy_screen5c.png)
+
+The Standard stack will take about 16 minutes to deploy.  Upon completion, status of the stack will indicate "CREATE_COMPLETE", and the Output tab will specifiy a URL to the deployed instance of OpenEMR Cloud Standard edition:
+
+#### Complete
+
+![](./Standard_deploy_screen5d.png)
+
+### Smoketest
+
+Click on the URL in the "Output" tab to access the deployed instance of OpenEMR Standard
+
+![](./Standard_deploy_screen5e.png)
+
+
+### Delete
+
+When finished using the deployed instance of OpenEMR Standard, delete the instance by selected the stack and selecting the "Delete Stack" option in the "Actions" drop down menu:
+
+![](./Standard_deploy_screen5f.png)
+
