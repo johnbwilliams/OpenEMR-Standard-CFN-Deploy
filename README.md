@@ -1,4 +1,4 @@
-# OpenEMR-Standard-CFN-Deploy
+# OpenEMR-Standard-CFN-Deploy Instructions
 
 - Install R from https://www.r-project.org/
 
@@ -16,3 +16,7 @@
 
 
 About Rmarkdown:  https://rmarkdown.rstudio.com/
+
+About OpenEMR Cloud:  www.facebook.com/openemrcloud
+
+About OpenEMR:  www.open-emr.org
