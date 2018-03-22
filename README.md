@@ -1,6 +1,8 @@
-# OpenEMR-Standard-CFN-Deploy Instructions
+# OpenEMR-Standard-CFN-Deploy 
 
-- Install R from https://www.r-project.org/
+Instructions for modifying & generating OpenEMR-Standard-CFN-Deploy instructions, in html form
+
+.- Install R from https://www.r-project.org/
 
 - Install Rstudio from https://www.rstudio.com/products/rstudio/download/
 
@@ -13,7 +15,6 @@
 - "Knit" (Rstudio IDE button)  OpenEMR-Standard-Deploy.Rmd, and check results in Rstudio viewe
 
 - Publish  OpenEMR-Standard-Deploy.html to web site of choice
-
 
 About Rmarkdown:  https://rmarkdown.rstudio.com/
 
