@@ -13,7 +13,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Log In
 
-Log in to AWS account as administrator.   If necessary, create a set
+Log in to AWS account (see your AWS account admin for IAM role & CloudFormation permisions.   
+
+###  Key Pair 
+
+Create or select an existing EC2 key pair:  https://docs.aws.amazon.com/cli/latest/userguide/cli-ec2-keypairs.html
 
 ### URL
 
