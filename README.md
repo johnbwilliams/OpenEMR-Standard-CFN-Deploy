@@ -14,7 +14,9 @@ Instructions for modifying & generating OpenEMR-Standard-CFN-Deploy instructions
 
 - "Knit" (Rstudio IDE button)  OpenEMR-Standard-Deploy.Rmd, and check results in Rstudio viewe
 
-- Publish  OpenEMR-Standard-Deploy.html to web site of choice
+- Publish  OpenEMR-Standard-Deploy.html on web server
+
+        - https://rpubs.com/johnbwilliams/oemr_standard_deploy
 
 About Rmarkdown:  https://rmarkdown.rstudio.com/
 
